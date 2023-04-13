@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-fill {
+  min-height: --webkit-fill-available;
+  min-height: fill-available;
+  min-height: 100vh;
+}

@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <>
       <main
-        className={`${inter.className} bg-slate-900 min-h-screen flex items-center justify-center`}
+        className={`${inter.className} bg-slate-900 flex items-center justify-center bg-fill`}
       >
         <div className="max-w-5xl mx-auto p-5 text-white">
           <h1 className="text-2xl md:text-3xl lg:text-6xl font-semibold text-center">

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 const Home = () => {
   return (
     <main
-      className={`${inter.className} bg-slate-900 min-h-screen flex items-center justify-center`}
+      className={`${inter.className} bg-slate-900 flex items-center justify-center bg-fill`}
     >
       <div className="max-w-5xl mx-auto p-5 text-white">
         <h1 className="text-4xl font-bold text-amber-500">Tools</h1>
